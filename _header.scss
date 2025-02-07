@@ -1,0 +1,49 @@
+/* Sass */
+// $primary-color: #3498db
+// body
+//     background-color: $primary-color;
+
+/* Aniadmiento */ 
+header {
+    background-color: $primary-color;
+    nav{
+        padding: 20px;
+        ul{
+            list-style: circle;
+            li{
+               text-decoration: underline; 
+            }
+        }
+    }
+}
+
+div {
+    width: 100px;
+    p{
+        font-size: 20px;
+    }
+}
+
+@mixin border-radius ($radius) {
+    border-radius: $radius;
+}
+
+.box {
+    @include border-radius(10px)
+}
+
+.mapa {
+    @include border-radius(20px)
+}
+
+/* SASS*/
+// @mixin border-radius ($radius) 
+//     border-radius: $radius;
+
+
+// .box 
+//     @include border-radius(10px)
+
+
+// .mapa 
+//     @include border-radius(20px)
