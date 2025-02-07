@@ -1,0 +1,61 @@
+@charset "UTF-8";
+header {
+  background-color: #3498db;
+}
+header nav {
+  padding: 20px;
+}
+header nav ul {
+  list-style: circle;
+}
+header nav ul li {
+  text-decoration: underline;
+}
+
+div {
+  width: 100px;
+}
+div p {
+  font-size: 20px;
+}
+
+/* Añador en los parentesis un parametro o variable vacio | 
+En esta variable vamos a decidir que valor va a tener en el futuro | El futuro es cuando llamemos o utilicemos ese mixin*/
+.box {
+  border-radius: 10px;
+}
+
+.mapa {
+  border-radius: 20px;
+}
+
+/* SASS*/
+.color-bg {
+  background-color: red;
+}
+
+.color-bg {
+  background-color: green;
+}
+
+.color-bg {
+  background-color: blue;
+}
+
+.primary-bg {
+  background-color: red;
+}
+
+.secondary-bg {
+  background-color: green;
+}
+
+.danger-bg {
+  background-color: orange;
+}
+
+body {
+  background-color: #3498db;
+}
+
+/*# sourceMappingURL=style.css.map */
